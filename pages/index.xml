@@ -2,18 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Benjamin Hahn</title>
-    <link>/</link>
+    <link>/pages/</link>
     <description>Recent content on Benjamin Hahn</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/index.html</guid>
-      <description>I&amp;rsquo;m a machine learning engineer working at the autonomous store startup Advertima in Zurich, Switzerland where I work on building machine learning models to compute body poses and classify human actions. I have experience in computer vision, machine learning, generative models and robotics. Previously I spent time at Magic Leap, where I worked on SLAM for augmented reality and Disney Research, where I built a system for realtime semantic segmentation of 3D reconstructions.</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mountains</title>
       <link>/pages/mountains/</link>
