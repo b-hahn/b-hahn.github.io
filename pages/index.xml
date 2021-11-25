@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Benjamin Hahn</title>
+    <title>Pages on Benjamin Hahn</title>
     <link>/pages/</link>
-    <description>Recent content on Benjamin Hahn</description>
+    <description>Recent content in Pages on Benjamin Hahn</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mountains</title>
@@ -15,13 +15,35 @@
     </item>
     
     <item>
+      <title>Plastic Detection on Beaches</title>
+      <link>/pages/projects/plastic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/projects/plastic/</guid>
+      <description>Plastic waste1
+      Plastic waste2
+      Plastic waste3
+     Marine plastic waste is a large environmental problem whose extent isn&amp;rsquo;t always easy to quantify. This project attempted to approximate the amount of plastic waste in the oceans by measuring how much plastic is washed ashore on beaches and extrapolate the overall amount of plastic waste based on that.</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>/pages/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/projects/</guid>
-      <description>ladida check this out: Mountains.
-Projects to talk about:   Learning 3D Pointcloud Descriptors for Robust Localization: In this project I worked on learning desriptors robust to changes in viewpoint, illumination and deformation by incorporating geometric and semantic information. I explored a variety of methods to improve the baseline of 3D descriptors using deep neural networks such as 3D convolutional neural nets, graph convolutional neural nets to deal with the inherent problem of permutation invariance when dealing with 3D pointclouds (effectively sets).</description>
+      <description>VQVAE Vector Quantized Variational Autoencoders are a state of the art method to generate high fidelity images. To gain a better understanding I reimplemented them in JAX and trained them on topographic maps from swisstopo, to generate an endless supply of new places to explore.
+This is work in progress, code and demo to be released soon.
+ Learning 3D Point Cloud Descriptors for Robust Localization In this project I worked on improving localization by learning descriptors robust to changes in viewpoint, illumination and deformation.</description>
+    </item>
+    
+    <item>
+      <title>SemSeg</title>
+      <link>/pages/projects/semseg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/projects/semseg/</guid>
+      <description>Autonomous robots require robust methods to consistently localize in a map. Previous work has shown the benefits of using structure-based localization but relied on the use of expensive LIDARs. This work explores the use of stereo cameras to generate 3D data instead. To augment the quality of the noisy point clouds, the use of color and semantic information for both segmentation and description of the points clouds is evaluated. Experiments show a significant improvement of the descriptor performance.</description>
     </item>
     
   </channel>

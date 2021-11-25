@@ -1,0 +1,27 @@
+---
+title: "About"
+layout: "index"
+slug: "about"
+---
+
+<!-- ![Me](/img/me_serious.jpg) -->
+
+I'm a machine learning engineer working at the autonomous store startup Advertima in Zurich, Switzerland where I work on building machine learning models to compute body poses and classify human actions. I have experience in computer vision, machine learning, generative models and robotics.
+
+Previously I spent time at Magic Leap, where I worked on SLAM for augmented reality and Disney Research, where I built a system for realtime semantic segmentation of 3D reconstructions. I have a masters from ETH Zurich where I worked on projects on autonomous driving using a Raspberry Pi powered robot, multi-agent reinforcement learning for exploration and human motion prediction using recurrent neural networks. Prior to that I spent some time at Imperial College London, working in the Dyson Robotics Lab focusing on semantic segmentation for localization and classfication of marine plastic waste using deep learning.
+In my free time you will likely find me in the mountains, climbing in the summer or ski touring in the winter.
+
+ss
+# Work Experience
+2020 - 2021 | Machine Learning Engineer @ Advertima \
+2019 - 2020 | Research Engineer at Autonomous Systems Lab, ETH Zurich
+
+# Education
+2016 - 2019 | ETH Zurich - MSc Robotics\
+2016 - 2017 | Imperial College London - One Year Visit\
+2012 - 2015 | ETH Zurich - BSc Mechanical Engineering
+
+
+
+<!-- [Mountains]({{< ref "mountains.md" >}} "Mountains Page") -->
+<!-- [Music]({{< ref "mountains.md" >}} "Music Page") -->

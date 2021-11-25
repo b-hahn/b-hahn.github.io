@@ -8,18 +8,12 @@
 		<title>Projects</title>
 
 		
-		<link rel="stylesheet" href="/css/colors-blue-beige.min.3f7e4fff4896824533b4469b2c9b3e26b40c0a4359c10e9a06a77d800c9ffacb.css">
+		<link rel="stylesheet" href="/css/colors-blue-beige.min.49964d2220b1fdf3e745ee7f4a675833d74b63ef9285885ad06af0e5bbe9f0d5.css">
 
 		
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather%7cFira&#43;Mono%7cDroid&#43;Sans" type="text/css" media="all" />
 
 
-
-		
-  
-  <link href="//fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-
-		
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -30,6 +24,13 @@ if (!doNotTrack) {
 }
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+		
+  
+  <link href="//fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 
 	</head>
 	<body>
@@ -44,7 +45,9 @@ if (!doNotTrack) {
 	
 		<ul class="nav">
 			
-				<li><a href="/index.html"><span>About</span></a></li>
+				<li><a href="/"><span>About</span></a></li>
+			
+				<li><a href="/pages/projects"><span>Projects</span></a></li>
 			
 		</ul>
 	
@@ -55,30 +58,31 @@ if (!doNotTrack) {
 			<div id="content">
 				
 	<article class="post">
-		<h1><a href="/pages/projects/">Projects</a> </h1>
+		<h3>Projects </h3>
 
-		<div class="post-content"><p>ladida check this out: <a href="/pages/mountains/" title="Mountains Page">Mountains</a>.</p>
-<h4 id="projects-to-talk-about">Projects to talk about:</h4>
-<ul>
-<li>
-<p>Learning 3D Pointcloud Descriptors for Robust Localization: In this project I worked on learning desriptors robust to changes in viewpoint, illumination and deformation by incorporating geometric and semantic information. I explored a variety of methods to improve the baseline of 3D descriptors using deep neural networks such as 3D convolutional neural nets, graph convolutional neural nets to deal with the inherent problem of permutation invariance when dealing with 3D pointclouds (effectively sets). The final system used 2D semantic segmentation on RGB images, stereo matching to generate 3D point clouds and XYZ. The benefit of this method is the fact that it requires no expensive Lidar but enables localization in GPS denied environments where simple visual localization may fail (greatly different view point - talk about reconstruction that implicitly happens in learning descriptors via Autoencoder).</p>
-</li>
-<li>
-<p>Plastic Detection on Beaches: As part of the Plastic Tide effort I designed and built a system to survey beaches for plastic waste, detect and characterize the waste and estimate its volume.</p>
-</li>
-<li>
-<p>Recommender Systems</p>
-</li>
-<li>
-<p>Contributed to Maplab</p>
-</li>
-<li>
-<p>I played around with Variational Autoencoders (reimplement beta-VAE and maybe some more recent paper in Pytorch Lightning, add link to repo): <img src="/img/beta_vae.png" alt="Beta-VAE"></p>
-</li>
-</ul>
+		<div class="post-content"><!-- raw HTML omitted -->
+<h1 id="vqvae">VQVAE</h1>
+<p><a href="https://arxiv.org/abs/1711.00937" target="_blank">Vector Quantized Variational Autoencoders</a> are a state of the art method to generate high fidelity images. To gain a better understanding I reimplemented them in JAX and trained them on topographic maps from <a href="https://map.geo.admin.ch/" target="_blank">swisstopo</a>, to generate an endless supply of new places to explore.</p>
+<p>This is work in progress, code and demo to be released soon.</p>
+<!-- raw HTML omitted -->
+<hr>
+<h1 id="learning-3d-point-cloud-descriptors-for-robust-localization">Learning 3D Point Cloud Descriptors for Robust Localization</h1>
+<p>In this project I worked on improving localization by learning descriptors robust to changes in viewpoint, illumination and deformation. The main idea was to incorporate geometric and semantic information, using 3D point clouds instead of typical 2D images.</p>
+<p>This work was published at IROS 2021 and can be found on <a href="https://arxiv.org/abs/2107.14715" target="_blank">arXiv</a>.</p>
+<p>More on this project <a href="/pages/projects/semseg/" title="Learning 3D Point Cloud Descriptors">here</a>.</p>
+<hr>
+<h1 id="deep-learning-based-plastic-detection-on-beaches-using-mavs">Deep Learning-based Plastic Detection on Beaches using MAVs</h1>
+<p>As part of <a href="https://www.theplastictide.com/" target="_blank">The Plastic Tide</a> effort I designed and built a machine learning system to survey beaches for plastic waste, detect and characterize the waste and estimate its volume.</p>
+<p>More on this project <a href="/pages/projects/plastic/" title="Plastic Detection">here</a>.</p>
+<hr>
+<h1 id="maplab">MapLab</h1>
+<p>While working at the Autonomous Systems Lab I contributed to one of the largest open source SLAM frameworks, <a href="https://github.com/ethz-asl/maplab" target="_blank">Maplab</a>. Among the things I worked on were adding wheel constraints to the optimization to reduce trajectory drift and support for the <a href="/pages/projects/semseg/" title="Learning 3D Point Cloud Descriptors">semantic point cloud descriptors</a> I developed.</p>
+<h1 id="collaborative-filtering-stacking-collaborative-filtering-and-neural-networks-for-improved-recommendations">Collaborative Filtering: Stacking Collaborative Filtering and Neural Networks for Improved Recommendations</h1>
+<p>This project was done together with <a href="http://kevinkle.in" target="_blank">Kevin Klein</a> and <a href="https://www.lorenzkuhn.com" target="_blank">Lorenz Kuhn</a>.</p>
+<p>Abstract:
+Online businesses face the challenge of recommending relevant products to users based on users’ previous preferences and similar customers. This work explores the use of classic matrix factorization methods on the one hand and recent neural network-based methods on the other hand. Final predictions were further improved using ensembling methods such as bagging and stacking. We report similar, competitive scores for matrix factorization methods and slightly lower accuracy for neural network-based methods with a final ensemble RMSE of 0.964.</p>
+<p>The full report can be found <a href="https://github.com/kklein/CILRecommender2018/blob/master/report/report.pdf" target="_blank">here</a>.</p>
 </div>
-
-		<p class="meta">Posted on <span class="postdate">01. January 0001</span></p>
 	</article>
 
 			</div>
@@ -86,12 +90,7 @@ if (!doNotTrack) {
 			
 
 			<footer id="footer">
-				<p class="copyright">
-					
-						Powered by <a href="https://gohugo.io/">Hugo</a> and the
-						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
-					
-				</p>
+
 			</footer>
 		</div>
 
