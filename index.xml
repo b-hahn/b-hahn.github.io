@@ -4,7 +4,8 @@
     <title>About on Benjamin Hahn</title>
     <link>/</link>
     <description>Recent content in About on Benjamin Hahn</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning 3D Point Cloud Descriptors for Robust Localization</title>
       <link>/pages/projects/semseg/</link>
@@ -30,9 +31,10 @@
       
       <guid>/pages/projects/plastic/</guid>
       <description>Plastic waste1
-      Plastic waste2
-      Plastic waste3
-     Marine plastic waste is a large environmental problem whose extent isn&amp;rsquo;t always easy to quantify. This project attempted to approximate the amount of plastic waste in the oceans by measuring how much plastic is washed ashore on beaches and extrapolate the overall amount of plastic waste based on that.</description>
+Plastic waste2
+Plastic waste3
+Marine plastic waste is a large environmental problem whose extent isn&amp;rsquo;t always easy to quantify. This project attempted to approximate the amount of plastic waste in the oceans by measuring how much plastic is washed ashore on beaches and extrapolate the overall amount of plastic waste based on that.
+To do so, I developed a deep learning based object detection framework, based on the popular YOLO framework to compute the location and type of plastic waste on images gathered by drones.</description>
     </item>
     
     <item>
@@ -43,7 +45,7 @@
       <guid>/pages/projects/</guid>
       <description>VQVAE Vector Quantized Variational Autoencoders are a state of the art method to generate high fidelity images. To gain a better understanding I reimplemented them in JAX and trained them on topographic maps from swisstopo, to generate an endless supply of new places to explore.
 This is work in progress, code and demo to be released soon.
- Learning 3D Point Cloud Descriptors for Robust Localization In this project I worked on improving localization by learning descriptors robust to changes in viewpoint, illumination and deformation.</description>
+Learning 3D Point Cloud Descriptors for Robust Localization In this project I worked on improving localization by learning descriptors robust to changes in viewpoint, illumination and deformation.</description>
     </item>
     
   </channel>
